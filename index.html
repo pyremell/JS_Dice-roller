@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="bg-img"></div>
+
+  <div class="container">
+    <div class="results-box">
+      <span>1</span>
+    </div>
+
+    <div class="dice-container">
+      <button class="btn-die" id="d4-btn">d4</button>
+      <button class="btn-die" id="d6-btn">d6</button>
+      <button class="btn-die" id="d8-btn">d8</button>
+      <button class="btn-die" id="d10-btn">d10</button>
+      <button class="btn-die" id="d12-btn">d12</button>
+      <button class="btn-die" id="d20-btn">d20</button>
+    </div>
+
+    <div class="multiplier-container">
+      <div class="mulitplier-box">
+        <p>Number of Dice</p>
+        <input class="mult-input" type="number" name="multiplier" value="1" min="1" max="10">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>  
+</body>
+</html>
